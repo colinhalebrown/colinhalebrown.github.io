@@ -1,0 +1,11 @@
+var wordArray = [];
+wordArray.push("one");
+wordArray.push("two");
+wordArray.push("three");
+wordArray.push("four");
+wordArray.push("five");
+wordArray.push("six");
+wordArray.push("seven");
+var randNum, finalWord;
+randNum = Math.floor(Math.random() * wordArray.length);
+finalWord = wordArray[randNum];
