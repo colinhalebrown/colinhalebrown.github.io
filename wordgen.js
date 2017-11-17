@@ -15,3 +15,4 @@ REE = Math.floor(Math.random() * insult_end.length);
 second_insult_part = insult_end[REE];
 
 final_insult = first_insult_part + second_insult_part;
+document.getElementById("insult").innerHTML = final_insult;
