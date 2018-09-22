@@ -38,6 +38,16 @@ header {
 }
 #content	{
   margin-left: 85px;
+  margin-right: 85px;
+  margin-top: 165px;
+  text-align: center;
+}
+#projects	{
+  width: 500px;
+  height: 750px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 #footer	{ 
   background-color: #bebebe;
