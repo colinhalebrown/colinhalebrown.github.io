@@ -2838,7 +2838,7 @@
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
-          font-size: 2.5em;
+          font-size: 1.5em;
 				}
 
 				#header > a[href="#menu"]:hover {
@@ -2966,7 +2966,8 @@
 			display: block;
 			height: 3.25em;
 			line-height: 3.25em;
-			padding-right: 1.25em;
+			padding-right: 2.25em;
+      padding-top: .75em;
 			position: absolute;
 			right: 0;
 			text-align: right;
@@ -2986,7 +2987,7 @@
 			}
 
 			#menu .close:before {
-				font-size: 2.5em;
+				font-size: 1.5em;
 			}
 
 			#menu .close:hover {
