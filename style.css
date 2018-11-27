@@ -1245,7 +1245,7 @@
 	}
 
 	a {
-		color: #bebebe;
+		color: #3771c8;
 	}
 
 	strong, b {
@@ -1487,7 +1487,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #bebebe;
+			background-color: #3771c8;
 			color: #ffffff !important;
 		}
 
@@ -1873,8 +1873,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #bebebe;
-			box-shadow: 0 0 0 1px #bebebe;
+			border-color: #3771c8;
+			box-shadow: 0 0 0 1px #3771c8;
 		}
 
 	.select-wrapper:before {
@@ -1894,15 +1894,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #bebebe;
-		border-color: #bebebe;
+		background-color: #3771c8;
+		border-color: #3771c8;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #bebebe;
-		box-shadow: 0 0 0 1px #bebebe;
+		border-color: #3771c8;
+		box-shadow: 0 0 0 1px #3771c8;
 	}
 
 	::-webkit-input-placeholder {
@@ -2283,8 +2283,8 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #bebebe;
-			color: #505050;
+			background-color: #3771c8;
+			color: #162d50;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -2381,7 +2381,7 @@
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
 					background-color: #ffffff;
-					color: #bebebe !important;
+					color: #3771c8 !important;
 				}
 
 			.wrapper.style1 label {
@@ -2412,7 +2412,7 @@
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #505050;
+				color: #162d50;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2425,7 +2425,7 @@
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #bebebe;
+				color: #3771c8;
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -2496,7 +2496,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #bebebe;
+				color: #3771c8;
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -2568,7 +2568,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #bebebe;
+					background-color: #3771c8;
 					color: #ffffff !important;
 				}
 
@@ -2606,8 +2606,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #bebebe;
-					box-shadow: 0 0 0 1px #bebebe;
+					border-color: #3771c8;
+					box-shadow: 0 0 0 1px #3771c8;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -2627,15 +2627,15 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #bebebe;
-				border-color: #bebebe;
+				background-color: #3771c8;
+				border-color: #3771c8;
 				color: #ffffff;
 			}
 
 			.wrapper.style2 input[type="checkbox"]:focus + label:before,
 			.wrapper.style2 input[type="radio"]:focus + label:before {
-				border-color: #bebebe;
-				box-shadow: 0 0 0 1px #bebebe;
+				border-color: #3771c8;
+				box-shadow: 0 0 0 1px #3771c8;
 			}
 
 			.wrapper.style2 ::-webkit-input-placeholder {
@@ -2762,7 +2762,7 @@
 
 	#header {
 		background-color: transparent;
-		color: #505050;
+		color: #162d50;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2777,7 +2777,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #bebebe;
+			background: #3771c8;
 		}
 
 		#header .logo {
@@ -2838,6 +2838,7 @@
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
+          font-size: 2.5em;
 				}
 
 				#header > a[href="#menu"]:hover {
@@ -2906,7 +2907,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #bebebe;
+		background: #3771c8;
 		box-shadow: none;
 		color: #ffffff;
 		height: 100%;
@@ -2960,7 +2961,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #505050;
+			color: #162d50;
 			cursor: pointer;
 			display: block;
 			height: 3.25em;
@@ -2985,7 +2986,7 @@
 			}
 
 			#menu .close:before {
-				font-size: 1.25em;
+				font-size: 2.5em;
 			}
 
 			#menu .close:hover {
@@ -3123,10 +3124,10 @@
 			-webkit-transition: height 0.2s ease;
 			-ms-transition: height 0.2s ease;
 			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 3s forwards;
-			-webkit-animation: more 0.75s ease-out 3s forwards;
-			-ms-animation: more 0.75s ease-out 3s forwards;
-			animation: more 0.75s ease-out 3s forwards;
+			-moz-animation: more 0.75s ease-out 1s forwards;
+			-webkit-animation: more 0.75s ease-out 1s forwards;
+			-ms-animation: more 0.75s ease-out 1s forwards;
+			animation: more 0.75s ease-out 1s forwards;
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;
@@ -3175,20 +3176,20 @@
 			}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
+			-moz-transition-delay: .125s;
+			-webkit-transition-delay: .125s;
+			-ms-transition-delay: .125s;
+			transition-delay: .125s;
 			content: '';
 			display: block;
 			background-color: #000;
 			height: 100%;
 			left: 0;
-			opacity: 0.45;
+			opacity: 0.25;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3409,20 +3410,20 @@
 			}
 
 		.post:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 2s ease;
+			-webkit-transition: opacity 2s ease;
+			-ms-transition: opacity 2s ease;
+			transition: opacity 2s ease;
+			-moz-transition-delay: .25s;
+			-webkit-transition-delay: .25s;
+			-ms-transition-delay: .25s;
+			transition-delay: .25s;
 			content: '';
 			display: block;
 			background-color: #000;
 			height: 100%;
 			left: 0;
-			opacity: 0.45;
+			opacity: 0.25;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3503,10 +3504,10 @@
 				-webkit-transition: height 0.2s ease;
 				-ms-transition: height 0.2s ease;
 				transition: height 0.2s ease;
-				-moz-animation: more 0.75s ease-out 2s forwards;
-				-webkit-animation: more 0.75s ease-out 2s forwards;
-				-ms-animation: more 0.75s ease-out 2s forwards;
-				animation: more 0.75s ease-out 2s forwards;
+				-moz-animation: more 0.75s ease-out 0.75s forwards;
+				-webkit-animation: more 0.75s ease-out 0.75s forwards;
+				-ms-animation: more 0.75s ease-out 0.75s forwards;
+				animation: more 0.75s ease-out 0.75s forwards;
 			}
 
 			.post .more:hover {
@@ -3616,17 +3617,17 @@
 		}
 
 	#footer {
-		background-color: #bebebe;
-		color: #505050;
-		padding: 6em 0 4em 0;
-		background: #bebebe;
+		background-color: #ffffff;
+		color: #3771c8;
+		padding: 3em 0 2em 0;
+		background: #ffffff;
 	}
 
 		#footer a {
 			color: #ffffff;
 		}
 
-		#footer strong, #footer b {
+		#footer strong {
 			color: #ffffff;
 		}
 
@@ -3634,135 +3635,8 @@
 			color: #ffffff;
 		}
 
-		#footer blockquote {
-			border-left-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer hr {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
-		#footer button,
-		#footer .button {
-			background-color: #5a5a5a;
-			color: #ffffff !important;
-		}
-
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
-			#footer button:hover,
-			#footer .button:hover {
-				background-color: #676767;
-			}
-
-			#footer input[type="submit"]:active,
-			#footer input[type="reset"]:active,
-			#footer input[type="button"]:active,
-			#footer button:active,
-			#footer .button:active {
-				background-color: #4d4d4d;
-			}
-
-			#footer input[type="submit"].alt,
-			#footer input[type="reset"].alt,
-			#footer input[type="button"].alt,
-			#footer button.alt,
-			#footer .button.alt {
-				background-color: transparent;
-				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-				color: #ffffff !important;
-			}
-
-				#footer input[type="submit"].alt:hover,
-				#footer input[type="reset"].alt:hover,
-				#footer input[type="button"].alt:hover,
-				#footer button.alt:hover,
-				#footer .button.alt:hover {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-				#footer input[type="submit"].alt:active,
-				#footer input[type="reset"].alt:active,
-				#footer input[type="button"].alt:active,
-				#footer button.alt:active,
-				#footer .button.alt:active {
-					background-color: rgba(255, 255, 255, 0.2);
-				}
-
-				#footer input[type="submit"].alt.icon:before,
-				#footer input[type="reset"].alt.icon:before,
-				#footer input[type="button"].alt.icon:before,
-				#footer button.alt.icon:before,
-				#footer .button.alt.icon:before {
-					color: #fbb5b5;
-				}
-
-			#footer input[type="submit"].special,
-			#footer input[type="reset"].special,
-			#footer input[type="button"].special,
-			#footer button.special,
-			#footer .button.special {
-				background-color: #ffffff;
-				color: #bebebe !important;
-			}
-
-		#footer label {
-			color: #ffffff;
-		}
-
-		#footer input[type="text"],
-		#footer input[type="password"],
-		#footer input[type="email"],
-		#footer select,
-		#footer textarea {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-			#footer input[type="text"]:focus,
-			#footer input[type="password"]:focus,
-			#footer input[type="email"]:focus,
-			#footer select:focus,
-			#footer textarea:focus {
-				border-color: #ffffff;
-				box-shadow: 0 0 0 1px #ffffff;
-			}
-
 		#footer .select-wrapper:before {
 			color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer input[type="checkbox"] + label,
-		#footer input[type="radio"] + label {
-			color: #505050;
-		}
-
-			#footer input[type="checkbox"] + label:before,
-			#footer input[type="radio"] + label:before {
-				background: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-		#footer input[type="checkbox"]:checked + label:before,
-		#footer input[type="radio"]:checked + label:before {
-			background-color: #ffffff;
-			border-color: #ffffff;
-			color: #bebebe;
-		}
-
-		#footer input[type="checkbox"]:focus + label:before,
-		#footer input[type="radio"]:focus + label:before {
-			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -3785,51 +3659,10 @@
 			color: #fbb5b5 !important;
 		}
 
-		#footer ul.alt li {
-			border-top-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer header p {
-			color: #fbb5b5;
-		}
-
-		#footer table tbody tr {
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-			#footer table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
-			}
-
-		#footer table th {
-			color: #ffffff;
-		}
-
-		#footer table thead {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer table tfoot {
-			border-top-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer table.alt tbody tr td {
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#footer .inner {
-			margin: 0 auto;
-		}
-
-		#footer h2 {
-			margin-bottom: 2em;
-			text-align: center;
-		}
-
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8em;
-			margin: 0 0 2em 0;
+			color: rgba(55, 113, 200, 0.8);
+			font-size: 1.2em;
+			margin: 0 0 .5em 0;
 			padding: 0;
 			text-align: center;
 		}
