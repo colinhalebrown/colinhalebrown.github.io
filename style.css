@@ -1207,12 +1207,15 @@
 		border-bottom-color: rgba(144, 144, 144, 0.25);
 	}
 
+  .content {
+    text-align: justify; 
+  }
 	.box {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 4px;
 		margin-bottom: 2em;
 		overflow: hidden;
-		padding: 4em 5em 3em 5em;
+		padding: 4em 6.5em 3em 6.5em;
 	}
 
 		.box > :last-child,
