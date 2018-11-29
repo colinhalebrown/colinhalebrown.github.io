@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, label, legend, caption, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1607,6 +1607,7 @@
 					margin-bottom: 0;
 				}
 
+
 			ul.actions.vertical.small li {
 				padding: 0.5em 0 0 0;
 			}
@@ -1907,36 +1908,11 @@
 				color: #bdbdbd;
 			}
 
-			.wrapper.style2 table tbody tr {
-				border-color: rgba(255, 255, 255, 0.15);
-			}
-
-				.wrapper.style2 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-			.wrapper.style2 table th {
-				color: #ffffff;
-			}
-
-			.wrapper.style2 table thead {
-				border-bottom-color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 table tfoot {
-				border-top-color: rgba(255, 255, 255, 0.15);
-			}
-
-			.wrapper.style2 table.alt tbody tr td {
-				border-color: rgba(255, 255, 255, 0.15);
-			}
-
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
 				padding: 4em 0;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1944,7 +1920,6 @@
 			.wrapper {
 				padding: 2em 0;
 			}
-
 		}
 
 	body.subpage {
@@ -2066,7 +2041,6 @@
 				#header > a {
 					padding: 0 0.5em;
 				}
-
 			}
 
 	@media screen and (max-width: 980px) {
@@ -2212,7 +2186,6 @@
 			#menu {
 				padding: 2.5em 1.75em;
 			}
-
 		}
 
 	#banner {
@@ -2399,7 +2372,6 @@
 				#banner br {
 					display: none;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2413,7 +2385,6 @@
 				#banner h1 {
 					font-size: 6em;
 				}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2425,7 +2396,6 @@
 			#banner .more {
 				display: none;
 			}
-
 		}
 
 		body.is-loading #banner .inner {
@@ -2480,7 +2450,6 @@
 				#post h2 {
 					font-size: 1.5em;
 				}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2491,7 +2460,6 @@
 				margin: 0;
 				padding: 0;
 			}
-
 		}
 
 	.post {
@@ -2714,7 +2682,6 @@
 				100% {
 					bottom: 1.5em;
 				}
-
 		}
 
 			@-webkit-keyframes more {
@@ -2745,7 +2712,7 @@
 				100% {
 					bottom: 1.5em;
 				}
-			} }
+			}
 
 		@media screen and (max-width: 736px) {
 
@@ -2758,7 +2725,6 @@
 				.post h2 {
 					font-size: 1.5em;
 				}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -2774,7 +2740,6 @@
 			.post .button {
 				width: 100%;
 			}
-
 		}
 
 	#main {
@@ -2786,7 +2751,6 @@
 			#main {
 				padding: 3em 0 1em 0;
 			}
-
 		}
 
 	#footer {
@@ -2813,5 +2777,4 @@
 			#footer {
 				padding: 3em 0 1em 0;
 			}
-
 		}
