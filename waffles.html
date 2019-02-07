@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Waffle Time</title>
+	<style>
+#myContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #ffffff;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: red;
+}
+</style>
+  </head>
+  <body>
+  <center>
+<p>
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+<div id ="myContainer">
+<div id ="myAnimation"><img src="images/waffle.jpg" style="height: 50px"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 600) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+
+  }
+}
+</script>
+	</center>
+  </body>
+</html>
