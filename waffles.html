@@ -30,16 +30,23 @@
 function myMove() {
   var elem = document.getElementById("myAnimation");   
   var pos = 0;
-  var id = setInterval(frame, 10);
-  function frame() {
+  var id = setInterval(bottomRight, 10);
+  function bottomRight() {
     if (pos == 600) {
-      clearInterval(id);
+      topRight();
     } else {
       pos++; 
       elem.style.top = pos + 'px'; 
       elem.style.left = pos + 'px'; 
     }
-
+  }
+  function topRight() {
+    if (pos == 1200) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos - 'px'; 
+    }
   }
 }
 </script>
