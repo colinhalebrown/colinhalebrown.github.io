@@ -1251,10 +1251,10 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		-ms-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+		transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 		border-radius: 4px;
 		border: 0;
 		cursor: pointer;
@@ -1990,10 +1990,10 @@
 	}
 
 		#header > a {
-			-moz-transition: color 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out;
+			-moz-transition: color 0.1s ease-in-out;
+			-webkit-transition: color 0.1s ease-in-out;
+			-ms-transition: color 0.1s ease-in-out;
+			transition: color 0.1s ease-in-out;
 			display: inline-block;
 			color: inherit;
 			text-decoration: none;
@@ -2080,10 +2080,10 @@
 		-webkit-transform: translateX(20em);
 		-ms-transform: translateX(20em);
 		transform: translateX(20em);
-		-moz-transition: -moz-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		-webkit-transition: -webkit-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
-		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
+		-moz-transition: -moz-transform 0.25s ease, box-shadow 0.25s ease, visibility 0.25s;
+		-webkit-transition: -webkit-transform 0.25s ease, box-shadow 0.25s ease, visibility 0.25s;
+		-ms-transition: -ms-transform 0.25s ease, box-shadow 0.25s ease, visibility 0.25s;
+		transition: transform 0.25s ease, box-shadow 0.25s ease, visibility 0.25s;
 		-webkit-overflow-scrolling: touch;
 		background: #708090;
 		box-shadow: none;
@@ -2142,9 +2142,9 @@
 
 		#menu .close {
 			text-decoration: none;
-			-moz-transition: color 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out;
+			-moz-transition: color 0.1s ease-in-out;
+			-webkit-transition: color 0.1s ease-in-out;
+			-ms-transition: color 0.1s ease-in-out;
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
@@ -2231,10 +2231,10 @@
 			-webkit-transform: scale(1.0);
 			-ms-transform: scale(1.0);
 			transform: scale(1.0);
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease;
 			opacity: 1;
 			position: relative;
 			z-index: 2;
@@ -2296,14 +2296,14 @@
 	}
 
 		#banner .more {
-			-moz-transition: height 0.2s ease;
-			-webkit-transition: height 0.2s ease;
-			-ms-transition: height 0.2s ease;
-			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 1s forwards;
-			-webkit-animation: more 0.75s ease-out 1s forwards;
-			-ms-animation: more 0.75s ease-out 1s forwards;
-			animation: more 0.75s ease-out 1s forwards;
+			-moz-transition: height 0.1s ease;
+			-webkit-transition: height 0.1s ease;
+			-ms-transition: height 0.1s ease;
+			transition: height 0.1s ease;
+			-moz-animation: more 0.5s ease-out 0.5s forwards;
+			-webkit-animation: more 0.5s ease-out 0.5s forwards;
+			-ms-animation: more 0.5s ease-out 0.5s forwards;
+			animation: more 0.5s ease-out 0.5s forwards;
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;
@@ -2352,10 +2352,10 @@
 			}
 
 		#banner:before {
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			-moz-transition: opacity 0.5s ease;
+			-webkit-transition: opacity 0.5s ease;
+			-ms-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
 			-moz-transition-delay: .125s;
 			-webkit-transition-delay: .125s;
 			-ms-transition-delay: .125s;
