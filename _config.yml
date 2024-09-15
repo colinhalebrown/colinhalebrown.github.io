@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Portfolio | Colin Hale-Brown
+title: Colin Hale-Brown
 email: colin@halebrown.io
 description: >- # this means to ignore newlines until "baseurl:"
   A place to share projects and documentation. Powered by Jekyll
