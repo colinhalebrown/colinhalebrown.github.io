@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-Blurb about me, maybe a photo if I am feeling good about myself.
+Hello, my name is Colin Hale-Brown. I just do stuff because it looks interesting. Because why not build a robot or a rocket? I have always loved getting my hands dirty and making stuff. Thank you to everyone I got to collaberate with along the way, wouldn't be here without you. 
 
 # Resume
 

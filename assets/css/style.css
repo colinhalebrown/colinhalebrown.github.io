@@ -195,42 +195,67 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-.topic-date {
-  color: #999;
-  float: right;
-}
-.topic-title { float: left; }
-
-.content-right div {
-  display: flex;
-  align-items: center;
-  float: left;
-  margin-right: 1em;
-
+/* Grid layout made with https://grid.layoutit.com/ */
+.container {  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Title Title"
+    "Content Photo"
+    "Link Photo";
 }
 
-.image-left img{
-  margin-right: 1em;
-  display: flex;
-  align-items: center;
-  float: left;
+.ExtendedContainer {
+  display: grid; 
+  grid-template-columns: auto auto; 
+  grid-template-rows: auto auto auto 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "Title Title"
+    "Content Photo"
+    "Extended-Content Extended-Content"
+    "Link ."; 
+}
+
+.Title { grid-area: Title; }
+
+.Content {
+  justify-self: stretch;
+  align-self: stretch;
+  grid-area: Content;
+}
+
+.Link {
+  justify-self: start;
+  align-self: end;
+  grid-area: Link;
+}
+
+.Photo {
+  justify-self: end;
+  grid-area: Photo;
   max-width: 300px;
-  height: auto;
 }
 
-.image-right img{
-  order: 1;
-  margin-left: 1em;
-  display: flex;
-  align-items: center;
-  float: right;
-  max-width: 300px;
-  height: auto;
+.Photo img{
+  padding-top: 10px;
+  padding-left: 10px;
+
 }
 
-.text {
-  text-align: left;
-  padding: 10px;
+.Extended-Content { grid-area: Extended-Content; }
+
+form { padding-top: 10px; }
+
+embed { 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin-top: 10px;
 }
 
 /* Button CSS by Bulma */
@@ -245,20 +270,19 @@ table td { border: 1px solid #e8e8e8; }
   color: #363636;
   cursor: pointer;
   display: inline-flex;
-  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1rem;
   height: 2.5em;
   justify-content: center;
   line-height: 1.5;
   padding: calc(.5em - 1px) 1em;
   position: relative;
+  bottom: 0;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: top;
   white-space: nowrap;
-  float: right; /* Added to position button */
 }
 
 .button-60:active {
