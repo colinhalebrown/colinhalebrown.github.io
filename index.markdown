@@ -30,7 +30,7 @@ title: Portfolio
 <div class="container">
   <div class="Title"></div>
   <div class="Content">During the flight at Spaceport America the rocket lost the motor due to a gas leak. The rocket flew to only 5000ft before returning to the ground balistic. While this was an unoptimal outcome I could not be more proud the team and everything we acomplished. Our technical report scored well and our engineering was sound. Thank you to all the everyone who spent weekends and late nights to make this dream come true. I couldn't have asked for a better team, your dedication and percerverence was inspiring.
-  <embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf" width="100%" height="565" type="application/pdf">
+  <embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf" width="100%" height="560" type="application/pdf">
 
   <iframe width="90%" height="280" src="https://www.youtube-nocookie.com/embed/e0LpQ6RYETU?si=Dz5Wc0p07-p72aYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -92,13 +92,33 @@ title: Portfolio
 </div>
 
 
-<hr><div class="container">
+<hr><div class="eContainer">
   <div class="Title"><h2>BB-8 Robot</h2></div>
+  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
+  </div>
+  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+  <div class="Photo">
+  <img src="/assets/images/bb8-internalstructure_cover.jpg">
+  <img src="/assets/images/bb8-drive_cover.gif">
+  <img src="/assets/images/bb8-tilt_cover.gif">
+  </div>
+  <div class="Link"></div>
+</div>
+<div class="AddContainer">
+  <div class="AddPhoto"><img src="/assets/images/bb8-open_cover.jpg"></div>
   <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
-  <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
-  <button class="button-60" type="submit">View Documentation</button>
-  </form></div>
-  <div class="Photo"><img src="/assets/images/meadowlark-mini_cover.jpg"></div>
+  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+</div>
+<div class="eContainer">
+  <div class="Title"></div>
+  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
+  <center><img src="/assets/images/bb8-fieldtest_cover.gif"></center>
+  </div>
+  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+  <div class="Photo">
+  <img src="/assets/images/bb8-firsttest_cover.gif">
+  </div>
+  <div class="Link"></div>
 </div>
 
 
@@ -144,27 +164,31 @@ title: Portfolio
 </div>
 
 
-<hr><div class="container">
+<hr><div class="eContainer">
   <div class="Title"><h2>First Robotics</h2></div>
-  <div class="Content">I was the Pigmice robotics team and competed in the FIRST Robitcs Competiton (FRC) all four years of highschool. I was Design Captain for my Junior and Senior Year. Leading the CAD of the robot all four years</div>
-  <div class="Link">
-  <form action="https://www.thebluealliance.com/team/2733/2019" method="get" target="_blank">
-  <button class="button-60" type="submit">View 2019 Stats</button>
-  </form>
-  <form action="https://www.thebluealliance.com/team/2733/2018" method="get" target="_blank">
-  <button class="button-60" type="submit">View 2018 Stats</button>
-  </form>
-  <form action="https://www.thebluealliance.com/team/2733/2017" method="get" target="_blank">
-  <button class="button-60" type="submit">View 2017 Stats</button>
-  </form>
-  <form action="https://www.thebluealliance.com/team/2733/2016" method="get" target="_blank">
-  <button class="button-60" type="submit">View 2016 Stats</button>
-  </form>
+  <div class="Content">I was the Pigmice robotics team and competed in the FIRST Robitcs Competiton (FRC) all four years of highschool. I was Design Captain for my Junior and Senior Year. Leading the CAD of the robot all four years
+  <br><br>
+  <center><img src="/assets/images/first-2019_cover.jpg" width="70%"></center>
   </div>
-  <div class="Photo">
-    <img src="/assets/images/meadowlark-mini_cover.jpg">
-    <img src="/assets/images/meadowlark-mini_cover.jpg">
-  </div>
+  <div class="Photo"><img src="/assets/images/first-2019competition_cover.jpg"></div>
+  <div class="eContent"></div>
+  <div class="eLink">
+  <center><table>
+    <tr>
+      <td><form action="https://www.thebluealliance.com/team/2733/2019" method="get" target="_blank">
+          <button class="button-60" type="submit">View 2019 Stats</button>
+      </form></td>
+      <td><form action="https://www.thebluealliance.com/team/2733/2018" method="get" target="_blank">
+          <button class="button-60" type="submit">View 2018 Stats</button>
+      </form></td>
+      <td><form action="https://www.thebluealliance.com/team/2733/2017" method="get" target="_blank">
+          <button class="button-60" type="submit">View 2017 Stats</button>
+      </form></td>
+      <td><form action="https://www.thebluealliance.com/team/2733/2016" method="get" target="_blank">
+          <button class="button-60" type="submit">View 2016 Stats</button>
+      </form></td>
+    </tr>
+  </table></center></div>
 </div>
 
 
