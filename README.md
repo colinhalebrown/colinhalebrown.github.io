@@ -8,5 +8,4 @@ Powered by Jekyll and minima
 Leaving this here for myself :)
 
 bundle exec jekyll serve
-
 >

@@ -48,7 +48,7 @@ title: Portfolio
 
 <hr><div class="container">
   <div class="Title"><h3>BEAVS Hardware</h3></div>
-  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
+  <div class="Content">For my senior capstone project at Oregon State I brought back the Blade Extanding Apogee Variance System (BEAVS) research project. This year we aimed to make the largest most advanced air brakes at Oregon State to date. The system is actuated by a single high torque servo motor with a rack and pinion to control the blades. The controller is run off a RP2040 with an altimiter and 9-axis inertial measurement unit. The parts were machined from 7075 aircraft grade aluminum with the total system weighing 1.577kg (hardware, electronics, and batteries). The blades sit flush with the 6.25" airframe and are able to extend 70mm out each side of the airframe. The BEAVS4 system flew at Spaceport America however was unable to activate due to a motor failure early in flight, with the rocket only reaching 5000ft.
   <br>
   <br>
   <center><img src="/assets/images/beavs-module_cover.jpg" width="70%" alt="BEAVS air brake system outside of the rocket"></center>
@@ -58,13 +58,18 @@ title: Portfolio
   </form></div>
   <div class="Photo">
   <img src="/assets/images/beavs-installed_cover.jpg" alt="BEAVS air brake system installed in the rocket">
+  <img src="/assets/images/beavs-firsttest_cover.gif" alt="BEAVS air brake system installed in the rocket">
   </div>
 </div>
 
 
 <hr><div class="container">
   <div class="Title"><h3>Launch Boxes</h3></div>
-  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
+  <div class="Content">After our first launch in Brothers Oregon we needed a more reliable and up to date launch control system. Following OROC and Tripli guidelines to ensure that it met all safety standards. 
+  <br>
+  Each box is powered by an RP2040 equipt with LoRa radios at 933MHz and is equipt with BNC quick-connects for antennas and USB-C for charging and debug. They have the same radio indicators and buzzers for visual and audio ques which are synced at all times. The field box has a removable 10ft cable with clips to connect to the ignitor. The system is mechanically disconnected until it is armed and fired remotely. With the box being turned on before evacuating the pad. The control box is able to see the status of the field box remotly. It is able to arm the field box with a key and fire with a button controlling two seperate relays in the field box. With indicators for continuity in case of a miss-fire. 
+  <br><br>
+  I hope to someday update the boxes with proper PCBs instead of the hand wired boards they currently use. 
   <br>
   <br>
   <center><img src="/assets/images/launchboxes-pcbs_cover.jpg" width="70%" alt="Both pcbs hand assembled to control the two launch boxes"></center>
@@ -74,6 +79,7 @@ title: Portfolio
   </form></div>
   <div class="Photo">
   <img src="/assets/images/launchboxes-enclosures_cover.jpg" alt="The control and field launch boxes stacked">
+  <img src="/assets/images/launchboxes-controls_cover.jpg" alt="The control and field launch boxes stacked">
   </div>
 </div>
 
@@ -81,8 +87,8 @@ title: Portfolio
 <hr><div class="container">
   <div class="Title"><h2>Burl Mini</h2></div>
   <div class="Content">The goal of the project was to deliver a Wi-Fi capable air sensing module. With it able to monitor gas concentrations and air quality for uses in indoor farming and air monitoring. Be competitive on functionality while adding modern, user focused features. This incolved adding USB-C for power and debugging, MicroSD for data logging and configuration, and user swapable battery. 
-  <br>
-  I focused more on the user experience and making a polished product with the project while trying to minimize the number of parts onboard. To keeping the system safe the enclosure lid snaps in place covering the sensors and MicroSD slot from damage durring operation. The base is equipt with mountign holes and slots for various mounting options.</div>
+  <br><br>
+  I focused more on the user experience and making a polished product while trying to minimize the number of parts onboard. To keeping the system safe the enclosure lid snaps in place covering the sensors and MicroSD slot from damage durring operation. The base is equipt with mountign holes and slots for various mounting options.</div>
   <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
   </form></div>
@@ -94,9 +100,13 @@ title: Portfolio
 
 <hr><div class="eContainer">
   <div class="Title"><h2>BB-8 Robot</h2></div>
-  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
+  <div class="Content">This project was just pure fun. I had this idea over winter break and was able to desgin, test and build a full scale bb-8 robot. I knew I wanted to start simple and built a test platform to test the movement of the ball first. With the addition of the head and puppetering later. 
+  <br><br>
+  Working on a budget I assembled the inner frame from laser cut pieces with a 3D printed outer shell. With the exterior shell cut into 14 panels. The robot hangs from the drive shaft and uses a counter weight to tilt. To save on buying a counter weight I used the lead-acid battery powering te robot as the counter weight. To drive the ball I used a 100:1 vex gearbox and motor with a bike chain and another 4:1 ratio. To control the tilt I used some random 12V motor and a 90 degree potentiometer attached to a little gear to meaure position. For the electronics I used some old motor controllers and parts from my car along with a zig-bee enabled arduino.
+  <br><br>
+  With this version being a proof of concept for the motion system I 3D printed gusset plates for the frame and the gears for the drive train of the tilt system. Using cheap 1x1 aluminum tubing to build the frame. The drive shaft was a 1in diameter, keyed, steel rod. Getting the robot into the ball ended up being a task.
   </div>
-  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+  <div class="eContent">I chose a section of the ball that could be removed so that the robot could be slipped inside however the robot weighed ~40lbs so the plasic ball would deform with a section missing. Making it a two person job to close it up as one person needs to hold the ball together while the other bolts the thing shut. With the ball completly assembled it weighed in at 55lbs and was very awkward to carry. I was able to write code for the system to balance, drive, and communicate with a joystick connected to another zig-bee radio module.</div>
   <div class="Photo">
   <img src="/assets/images/bb8-internalstructure_cover.jpg">
   <img src="/assets/images/bb8-drive_cover.gif">
@@ -106,15 +116,24 @@ title: Portfolio
 </div>
 <div class="AddContainer">
   <div class="AddPhoto"><img src="/assets/images/bb8-open_cover.jpg"></div>
-  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
-  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+  <div class="Content">
+  Take aways from this prototype:
+  <ul>
+  <li>Add a way to update the code remotly/ make the usb port more accessable.</li>
+  <li>Add a way to charge the battery without having to remove the robot from the ball.</li>
+  <li>Switch to LoRa for radio control.</li>
+  <li>Simplify power system, 5V and 12V only.</li>
+  <li>Move more mass to the counterweight/ made the robot lighter for better turning/ control.</li>
+  </ul>
+  </div>
+  <div class="eContent">With my prototype complete and basic testig out of the way I was able to collaberate with some friends over spring break and get it moving. The goal was to get it to be able of better, smoother movement and reliable behavior.</div>
 </div>
 <div class="eContainer">
   <div class="Title"></div>
-  <div class="Content">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.
-  <center><img src="/assets/images/bb8-fieldtest_cover.gif"></center>
+  <div class="Content">The first tests resulted in unpredictable movement forward and backward. Jittering and wobbling was common without tuning and the motor had so much speed and torqe that it could spin around the axel in place making it just vibrate. We got it sorted and it drove well, going to a field we found it to have better turning than expected given the small counter weight relative to the total mass. 
+  <center><img src="/assets/images/bb8-fieldtest_cover.gif" width="90%"></center>
   </div>
-  <div class="eContent">This project aims to deliver a low cost dual deploy flight computer. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyrosope, and acceleromter. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
+  <div class="eContent">Overall this prototype was a huge success. On our second outing for test driving it rolled off a curb and shattered the acrylic subframe that makes up the ball under its own weight. I am excited to move forward with a more refiled version of the robot in the future. With this experience I plan on adding the head to the next revision along with changes to the frame and layout of the robot.</div>
   <div class="Photo">
   <img src="/assets/images/bb8-firsttest_cover.gif">
   </div>
@@ -144,7 +163,7 @@ title: Portfolio
   </form></div>
   <div class="Photo">
   <img src="/assets/images/berm_cover.jpg">
-  <img src="/assets/images/meadowlark-mini_cover.jpg">
+  <img src="/assets/images/split_cover.jpg">
   </div>
 </div>
 
