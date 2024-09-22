@@ -19,12 +19,11 @@ title: Portfolio
   <div class="Photo"><img src="/assets/images/meadowlark-mini_cover.jpg" alt="Meadowlark Mini PCB"></div>
 </div>
 
-
 <hr id="esra">
 
 ## Experimental Sounding Rocketry Association (ESRA) Team
 
-In September of 2023 the president of Oregon State University's (OSU) AIAA program reached out and asked me to form a new rocketry team. I attended to lots of club recruiting events and presented at the AIAA fall general body meeting and recruited a diverse team of undergraduates. By December we were awarded an OSGC grant and were accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America cup. As team captain I secured a space to work in, materials, and supplies. Over the next four months we designed, prototyped, tested, and flew our rocket for the first time in Brothers Oregon. The rocket was successfully with minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing we were unable to perform a second flight before competition.
+In September of 2023 the president of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended to lots of club recruiting events and presented at the AIAA fall general body meeting and recruited a diverse team of undergraduates. By December we were awarded an OSGC grant and were accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America cup. As team captain I secured a space to work in, materials, and supplies. Over the next four months we designed, prototyped, tested, and flew our rocket for the first time in Brothers Oregon. The rocket was successfully with minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing we were unable to perform a second flight before competition.
 
 <img src="/assets/images/esra-rocketcad_banner.jpg" alt="Rocket CAD showing cutway of the rocket">
 
