@@ -6,12 +6,29 @@ layout: base
 title: Portfolio
 ---     
 
+<!-- SIDEBAR HTML from @dextercarpenter -->
+<div class="sidenav">
+	<a href="#"><span class="navheader">Contents</span></a>
+	<a href="#meadow"              >Meadowlark Mini</a>
+	<a href="#esra"              >ESRA Rocketry Team</a>
+	<a href="#beavs" >BEAVS Air Brakes</a>
+	<a href="#launch" >Rocket Launch Boxes</a>
+	<a href="#l1">Rocketry L1 Certification</a>
+	<a href="#burl"                      >Burl Mini</a>
+  <a href="#bb8"                      >BB-8 Robot</a>
+  <a href="#miso"                      >MISO Data Logger</a>
+  <a href="#keeb"                      >Keyboards</a>
+  <a href="#opens"                      >OPEnS Lab Research</a>
+  <a href="#frc"                      >FIRST Robotics</a>
+  <a href="#instructable"                      >Instructable</a>
+</div>
+
 # Portfolio
 
 
 
 <hr id="meadow"><div class="container">
-  <div class="Title"><h2>Meadowlark Mini</h2></div>
+  <div class="Title"><h2>Meadowlark Mini Flight Computer</h2></div>
   <div class="Content">After finishing the rocketry competition at the <a href="#esra">Spaceport America Cup</a> I was inspired to get my Level 2 high power rocket certification. To do that I would need a flight computer and after some research I decided I wanted to build one myself. This flight computer aims to deliver a low cost dual deploy functionality. The controller is equip with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyroscope, and accelerometer. All in a package that can fit in a 29mm chassis for H class motors, the smallest high powered motors available.</div>
   <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
@@ -23,7 +40,7 @@ title: Portfolio
 
 ## Experimental Sounding Rocketry Association (ESRA) Team
 
-In September of 2023 the president of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended to lots of club recruiting events and presented at the AIAA fall general body meeting and recruited a diverse team of undergraduates. By December we were awarded an OSGC grant and were accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America cup. As team captain I secured a space to work in, materials, and supplies. Over the next four months we designed, prototyped, tested, and flew our rocket for the first time in Brothers Oregon. The rocket was successfully with minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing we were unable to perform a second flight before competition.
+In September of 2023 the president of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended to lots of club recruiting events and presented at the AIAA fall general body meeting and recruited a diverse team of undergraduates. By December we were awarded an OSGC grant and were accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America cup. As team captain I secured a space to work in, materials, and supplies. Over the next four months we designed, prototyped, tested, and flew our rocket for the first time in Brothers, Oregon. The rocket was successfully recovered with minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing we were unable to perform a second flight before competition.
 
 <img src="/assets/images/esra-rocketcad_banner.jpg" alt="Rocket CAD showing cutway of the rocket">
 
@@ -44,9 +61,9 @@ In September of 2023 the president of Oregon State University's (OSU) American I
   <img src="/assets/images/esra-recovery_cover.jpg" alt="BEAVS air brake system installed in the rocket">
   </div>
 </div>
-<br>
-<div id="beavs" class="container">
-  <div class="Title"><h3>BEAVS Hardware</h3></div>
+
+<div id="beavs" class="container subproject">
+  <div class="Title"><h3>BEAVS Air Brakes</h3></div>
   <div class="Content">For my senior capstone project at Oregon State I brought back the Blade Extending Apogee Variance System (BEAVS) research project. This year we aimed to make the largest most advanced air brakes at Oregon State to date. The system is actuated by a single high torque servo motor with a rack and pinion to control the blades. The controller is run off a RP2040 with an altimeter and 9-axis inertial measurement unit. The parts were machined from 7075 aircraft grade aluminum with the total system weighing 1.577kg (hardware, electronics, and batteries). The blades sit flush with the 6.25" airframe and are able to extend 70mm out each side of the airframe. The BEAVS4 system flew at Spaceport America however was unable to activate due to a motor failure early in flight, with the rocket only reaching 5000ft.
   <br>
   <br>
@@ -60,10 +77,9 @@ In September of 2023 the president of Oregon State University's (OSU) American I
   <img src="/assets/images/beavs-firsttest_cover.gif" alt="BEAVS air brake system installed in the rocket">
   </div>
 </div>
-<br>
-<div id="launch" class="container">
-  <div class="Title"><h3>Launch Boxes</h3></div>
-  <div class="Content">After our first launch in Brothers Oregon we needed a more reliable and up to date launch control system. Following OROC and Tripoli guidelines to ensure that it met all safety standards. 
+<div id="launch" class="container subproject">
+  <div class="Title"><h3>Rocket Launch Boxes</h3></div>
+  <div class="Content">After our first launch in Brothers, Oregon we needed a more reliable and up to date launch control system. Following OROC and Tripoli guidelines to ensure that it met all safety standards. 
   <br>
   Each box is powered by an RP2040 equipped with LoRa radios at 933MHz and is equipped with BNC quick-connects for antennas and USB-C for charging and debug. They have the same radio indicators and buzzers for visual and audio ques which are synced at all times. The field box has a removable 10ft cable with clips to connect to the ignitor. The system is mechanically disconnected until it is armed and fired remotely. With the box being turned on before evacuating the pad. The control box is able to see the status of the field box remotely. It is able to arm the field box with a key and fire with a button controlling two separate relays in the field box. With indicators for continuity in case of a miss-fire. 
   <br><br>
@@ -83,7 +99,7 @@ In September of 2023 the president of Oregon State University's (OSU) American I
 <br>
 <div id="l1" class="container">
   <div class="Title"><h3>High Power Rocketry L1 Certification</h3></div>
-  <div class="Content">Part of my role as team captain was transporting rocket motors. The university insurance asked that we get high power certified. I was L1 certified by NAR in Brothers Oregon with a successful flight of my Balsa Rocket on an H class motor.
+  <div class="Content">Part of my role as team captain was transporting rocket motors. The university insurance asked that we get high power certified. I was L1 certified by NAR in Brothers, Oregon with a successful flight of my Balsa Rocket on an H class motor.
   <br>
   <br>
   <center><img src="/assets/images/l1-flight_cover.gif" width="70%" alt="Both pcbs hand assembled to control the two launch boxes"></center>
@@ -96,7 +112,7 @@ In September of 2023 the president of Oregon State University's (OSU) American I
 
 
 <hr id="burl"><div class="container">
-  <div class="Title"><h2>Burl Mini</h2></div>
+  <div class="Title"><h2>Burl Mini Air Monitor</h2></div>
   <div class="Content">The goal of the project was to deliver a Wi-Fi capable air sensing module. With it able to monitor gas concentrations and air quality for uses in indoor farming and air monitoring. Be competitive on functionality while adding modern, user focused features. This involved adding USB-C for power and debugging, MicroSD for data logging and configuration, and user swapable battery.
   <br><br>
   I focused more on the user experience and making a polished product while trying to minimize the number of parts onboard. To keeping the system safe the enclosure lid snaps in place covering the sensors and MicroSD slot from damage during operation. The base is equipped with mounting holes and slots for various mounting options.</div>
@@ -109,13 +125,13 @@ In September of 2023 the president of Oregon State University's (OSU) American I
 </div>
 
 
-<hr id="bb8"><div class="eContainer">
+<hr id="bb8"><div class="eContainer"> <!-- Why is this interesting -->
   <div class="Title"><h2>BB-8 Robot</h2></div>
   <div class="Content">This project was just pure fun. I had this idea over winter break and was able to design, test and build a full scale bb-8 robot. I knew I wanted to start simple and built a test platform to test the movement of the ball first. With the addition of the head and puppeteering later. 
   <br><br>
   Working on a budget I assembled the inner frame from laser cut pieces with a 3D printed outer shell. With the exterior shell cut into 14 panels. The robot hangs from the drive shaft and uses a counter weight to tilt. To save on buying a counter weight I used the lead-acid battery powering the robot as the counter weight. To drive the ball I used a 100:1 vex gearbox and motor with a bike chain and another 4:1 ratio. To control the tilt I used some random 12V motor and a 90 degree potentiometer attached to a little gear to measure position. For the electronics I used some old motor controllers and parts from my car along with a zig-bee enabled Arduino.
   <br><br>
-  With this version being a proof of concept for the motion system I 3D printed gusset plates for the frame and the gears for the drive train of the tilt system. Using cheap 1x1 aluminum tubing to build the frame. The drive shaft was a 1in diameter, keyed, steel rod. Getting the robot into the ball ended up being a task.
+  With this version being a proof of concept for the motion system I 3D printed gusset plates for the frame and the gears for the drive train of the tilt system. Using cheap 1x1 and 1x2 aluminum tubing to build the frame. The drive shaft was a 1in diameter, keyed, steel rod. Getting the robot into the ball ended up being a task.
   </div>
   <div class="eContent">I chose a section of the ball that could be removed so that the robot could be slipped inside however the robot weighed ~40lbs so the plastic ball would deform with a section missing. Making it a two person job to close it up as one person needs to hold the ball together while the other bolts the thing shut. With the ball completely assembled it weighed in at 55lbs and was very awkward to carry. I was able to write code for the system to balance, drive, and communicate with a joystick connected to another zig-bee radio module.</div>
   <div class="Photo">
@@ -180,12 +196,12 @@ In September of 2023 the president of Oregon State University's (OSU) American I
 
 
 <hr id="opens"><div class="container">
-  <div class="Title"><h2>OPEnS Lab Work</h2></div>
+  <div class="Title"><h2>OPEnS Lab Research</h2></div>
   <div class="Content">While working at Oregon State Universities OPEnS lab, I got the opportunity to learn about environmental sensing. I led the Smart Rock and Lilypad Projects and assisted Evaporometer, WeatherChimes, RainSavor, and Isotopic Sampler.
   <embed src="/assets/pdfs/SmartRock_AssemblyGuide_CUAHSI_2021.pdf" width="100%" height="360" type="application/pdf">
   </div>
   <div class="Link"><form action="https://github.com/OPEnSLab-OSU" method="get" target="_blank">
-  <button class="button-60" type="submit">OPeNs Lab Github</button>
+  <button class="button-60" type="submit">OPEnS Lab Github</button>
   </form></div>
   <div class="Photo">
   <img src="/assets/images/lilypad_cover.jpg">

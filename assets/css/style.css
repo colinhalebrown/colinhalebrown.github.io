@@ -195,6 +195,9 @@ table td { border: 1px solid #fdfdfd; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+.subproject {
+  padding-top: "50px"
+}
 /* Grid layout made with https://grid.layoutit.com/ */
 .container {  display: grid;
   grid-template-columns: auto auto;
@@ -330,4 +333,43 @@ hr {
 
 .button-60:focus:not(:active) {
   box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+/* Side Navigation CSS by @dextercarpenter */
+.sidenav {
+	width: 200px;
+	position: fixed;
+	z-index: 1;
+	top: 80px;
+	float: left;
+	left: calc((100% - 740px)/2 - 220px);
+/*	background: #eee;*/
+	overflow-x: hidden;
+	padding: 8px 0;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+}
+
+.sidenav p {
+	padding: 6px 8px 6px 16px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.sidenav .navheader {
+	color: #000;
+	font-weight: bold;
+}
+
+.sidenav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1230px) {
+	.sidenav {display: none;}
 }
