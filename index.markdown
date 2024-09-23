@@ -11,9 +11,11 @@ title: Portfolio
 	<a href="#"><span class="navheader">Contents</span></a>
 	<a href="#meadow"              >Meadowlark Mini</a>
 	<a href="#esra"              >ESRA Rocketry Team</a>
+  <!--
 	<a href="#beavs" >BEAVS Air Brakes</a>
 	<a href="#launch" >Rocket Launch Boxes</a>
 	<a href="#l1">Rocketry L1 Certification</a>
+  -->
 	<a href="#burl"                      >Burl Mini</a>
   <a href="#bb8"                      >BB-8 Robot</a>
   <a href="#miso"                      >MISO Data Logger</a>
@@ -62,7 +64,7 @@ In September of 2023 the president of Oregon State University's (OSU) American I
   </div>
 </div>
 
-<div id="beavs" class="container subproject">
+<div id="beavs" class="subcontainer">
   <div class="Title"><h3>BEAVS Air Brakes</h3></div>
   <div class="Content">For my senior capstone project at Oregon State I brought back the Blade Extending Apogee Variance System (BEAVS) research project. This year we aimed to make the largest most advanced air brakes at Oregon State to date. The system is actuated by a single high torque servo motor with a rack and pinion to control the blades. The controller is run off a RP2040 with an altimeter and 9-axis inertial measurement unit. The parts were machined from 7075 aircraft grade aluminum with the total system weighing 1.577kg (hardware, electronics, and batteries). The blades sit flush with the 6.25" airframe and are able to extend 70mm out each side of the airframe. The BEAVS4 system flew at Spaceport America however was unable to activate due to a motor failure early in flight, with the rocket only reaching 5000ft.
   <br>
@@ -77,7 +79,7 @@ In September of 2023 the president of Oregon State University's (OSU) American I
   <img src="/assets/images/beavs-firsttest_cover.gif" alt="BEAVS air brake system installed in the rocket">
   </div>
 </div>
-<div id="launch" class="container subproject">
+<div id="launch" class="subcontainer">
   <div class="Title"><h3>Rocket Launch Boxes</h3></div>
   <div class="Content">After our first launch in Brothers, Oregon we needed a more reliable and up to date launch control system. Following OROC and Tripoli guidelines to ensure that it met all safety standards. 
   <br>
@@ -96,8 +98,7 @@ In September of 2023 the president of Oregon State University's (OSU) American I
   <img src="/assets/images/launchboxes-controls_cover.jpg" alt="The control and field launch boxes stacked">
   </div>
 </div>
-<br>
-<div id="l1" class="container">
+<div id="l1" class="subcontainer">
   <div class="Title"><h3>High Power Rocketry L1 Certification</h3></div>
   <div class="Content">Part of my role as team captain was transporting rocket motors. The university insurance asked that we get high power certified. I was L1 certified by NAR in Brothers, Oregon with a successful flight of my Balsa Rocket on an H class motor.
   <br>
