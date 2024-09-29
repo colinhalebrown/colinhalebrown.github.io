@@ -31,14 +31,14 @@ title: Portfolio
 
 <hr><div class="container">
   <div class="Title"><h2 id="meadow">Meadowlark Mini Flight Computer</h2></div>
-  <div class="Content">After finishing the <a href="#esra">Spaceport America Cup</a> rocketry competition, I was inspired to obtsin my Level 2 high power rocket certification. To accomplish that goal I needed a flight computer. After some research I decided to build one myself. The flight computer I created aims to deliver low-cost dual deploy functionality. The controller is equiped with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyroscope, and accelerometer, which fits in a 29mm chassis for H class motors.</div>
+  <div class="Content">After finishing the <a href="#esra">Spaceport America Cup</a> rocketry competition, I was inspired to obtain my Level 2 high power rocket certification. To accomplish that goal I needed a flight computer. After some research I decided to build one myself. The flight computer I created aims to deliver low-cost dual deploy functionality. The controller is equiped with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyroscope, and accelerometer, which fits in a 29mm chassis for H class motors.</div>
   <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
   </form></div>
   <div class="Photo"><img src="/assets/images/meadowlark-mini_cover.jpg" alt="Meadowlark Mini PCB"></div>
 </div>
 
-<hr><h2 id="esra"> Experimental Sounding Rocketry Association (ESRA) Team</h2>
+<hr><h2 id="esra">Experimental Sounding Rocketry Association (ESRA) Team</h2>
 
 In September 2023, the President of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended numerous club recruiting events and presented at the AIAA Fall general body meeting to recruit a diverse team of undergraduates. By December our team was awarded an OSGC grant and accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America Cup. As Team Captain, I secured space to work in, materials, and supplies. Over the next four months our team designed, prototyped, tested, and flew our rocket for the first time in Brothers, Oregon. The rocket was successfully recovered with only minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot, strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing, we were unable to perform a second flight prior to competition.
 
@@ -83,7 +83,7 @@ In September 2023, the President of Oregon State University's (OSU) American Ins
   <br>
   Each box in the system is powered by an RP2040 equipped with LoRa radios at 933MHz and is equipped with BNC quick-connects for antennas and USB-C for charging and debug. They have the same radio indicators and buzzers for visual and audio cues which are synced at all times. The field box has a removable 10ft cable with clips to connect to the ignitor. The system is mechanically disconnected until it is armed and fired remotely. With the box being turned on before evacuating the pad. The control box is able to see the status of the field box remotely. It is able to arm the field box with a key and fire with a button controlling two separate relays in the field box. With indicators for continuity in case of a miss-fire. 
   <br><br>
-  I hope to someday update the boxes with proper PCBs instead of the hand wired boards they currently use. 
+  I hope to someday update the boxes with proper PCBs instead of the hand-wired boards they currently use. 
   <br>
   <br>
   <center><img src="/assets/images/launchboxes-pcbs_cover.jpg" width="70%" alt="Both pcbs hand assembled to control the two launch boxes"></center>
@@ -211,7 +211,7 @@ In September 2023, the President of Oregon State University's (OSU) American Ins
 
 <hr><div class="eContainer">
   <div class="Title"><h2 id="frc">First Robotics</h2></div>
-  <div class="Content">I was the Pigmice robotics team and competed in the FIRST Robotics Competition (FRC) all four years of high school. I lead the CAD of the robot all four years and was Design Captain for my Junior and Senior Year.
+  <div class="Content">I was on the Pigmice robotics team and competed in the FIRST Robotics Competition (FRC) all four years of high school. I led the CAD of the robot all four years and was Design Captain for my Junior and Senior Year.
   <br><br>
   <center><img src="/assets/images/first-2019_cover.jpg" width="70%"></center>
   </div>
