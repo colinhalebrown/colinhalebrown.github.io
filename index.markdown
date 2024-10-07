@@ -16,13 +16,13 @@ title: Portfolio
 	<a href="#launch" >Rocket Launch Boxes</a>
 	<a href="#l1">Rocketry L1 Certification</a>
   -->
-	<a href="#burl"                      >Burl Mini</a>
-  <a href="#bb8"                      >BB-8 Robot</a>
-  <a href="#miso"                      >MISO Data Logger</a>
-  <a href="#keeb"                      >Keyboards</a>
-  <a href="#opens"                      >OPEnS Lab Research</a>
-  <a href="#frc"                      >FIRST Robotics</a>
-  <a href="#instructable"                      >Instructable</a>
+	<a href="#burl"        >Burl Mini</a>
+  <a href="#bb8"         >BB-8 Robot</a>
+  <a href="#miso"        >MISO Data Logger</a>
+  <a href="#keeb"        >Keyboards</a>
+  <a href="#opens"       >OPEnS Lab Research</a>
+  <a href="#frc"         >FIRST Robotics</a>
+  <a href="#instructable">Instructable</a>
 </div>
 
 # Portfolio
@@ -40,13 +40,13 @@ title: Portfolio
 
 <hr><h2 id="esra">Experimental Sounding Rocketry Association (ESRA) Team</h2>
 
-In September 2023, the President of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended numerous club recruiting events and presented at the AIAA Fall general body meeting to recruit a diverse team of undergraduates. By December our team was awarded an OSGC grant and accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America Cup. As Team Captain, I secured space to work in, materials, and supplies. Over the next four months our team designed, prototyped, tested, and flew our rocket for the first time in Brothers, Oregon. The rocket was successfully recovered with only minor damage to the forward section of the rocket due to a parachute failure. After shortening the rocket by a foot, strakes (long fins above our main fins) were added to increase stability. After an explosive full scale CATO of the rocket motor during static testing, we were unable to perform a second flight prior to competition.
+In September 2023, the President of Oregon State University's (OSU) American Institute of Aeronautics and Astronautics (AIAA) program reached out and asked me to form a new rocketry team. I attended numerous club recruiting events and presented at the AIAA Fall general body meeting to recruit a diverse team of undergraduates. By December our team was awarded an OSGC grant and accepted to compete at the Experimental Sounding Rocketry Association’s (ESRA) Spaceport America Cup. As Team Captain, I secured space to work in, materials, and supplies. Over the next four months our team designed, prototyped, tested, and launched our rocket for the first time in Brothers, Oregon. The rocket was successfully recovered with only minor damage to the forward section of the rocket due to a parachute failure. The rocket needed to be shortened by a foot to remove the damage. With the change to the lenght of the rocket strakes (long fins above our main fins) were added to increase stability. During static testing the rocket motor experienced an explosive catostrophic failure so were unable to perform a second flight prior to competition.
 
 <img src="/assets/images/esra-rocketcad_banner.jpg" alt="Rocket CAD showing cutway of the rocket">
 
 <div class="container">
   <div class="Title"></div>
-  <div class="Content">During the flight at Spaceport America, the rocket lost the motor due to a gas leak. The rocket flew to only 5000ft before returning to the ground ballistic. While this was an suboptimal outcome, I could not be more proud the team and everything we accomplished. Our technical report scored well and our engineering was sound. I have immense gratitude for everyone who spent weekends and late nights to make this dream come true and couldn't have asked for a better team. Everyone's dedication and perseverance was inspiring.
+  <div class="Content">During the flight at Spaceport America, the rocket lost the motor due to a gas leak. The rocket flew to only 5000ft before returning to the ground ballistic. While this was an suboptimal outcome, I could not be more proud the team and everything we accomplished. Our technical report scored well and our engineering was sound. I have immense gratitude for everyone who spent weekends and late nights, I couldn't have asked for a better team. Everyone's dedication and perseverance was inspiring.
   <embed src="/assets/pdfs/Team_68_Project_Technical_Report_to_the_2024_Spaceport_America_Cup.pdf" width="100%" height="560" type="application/pdf">
 
   <iframe width="90%" height="280" src="https://www.youtube-nocookie.com/embed/e0LpQ6RYETU?si=Dz5Wc0p07-p72aYf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -83,7 +83,7 @@ In September 2023, the President of Oregon State University's (OSU) American Ins
   <br>
   Each box in the system is powered by an RP2040 equipped with LoRa radios at 933MHz and is equipped with BNC quick-connects for antennas and USB-C for charging and debug. They have the same radio indicators and buzzers for visual and audio cues which are synced at all times. The field box has a removable 10ft cable with clips to connect to the ignitor. The system is mechanically disconnected until it is armed and fired remotely. With the box being turned on before evacuating the pad. The control box is able to see the status of the field box remotely. It is able to arm the field box with a key and fire with a button controlling two separate relays in the field box. With indicators for continuity in case of a miss-fire. 
   <br><br>
-  I hope to someday update the boxes with proper PCBs instead of the hand-wired boards they currently use. 
+  If this project continues the hand-wired boards need to be replaced with proper PCBs for long term reliablity. 
   <br>
   <br>
   <center><img src="/assets/images/launchboxes-pcbs_cover.jpg" width="70%" alt="Both pcbs hand assembled to control the two launch boxes"></center>
@@ -183,7 +183,7 @@ In September 2023, the President of Oregon State University's (OSU) American Ins
 
 <hr><div class="container">
   <div class="Title"><h2 id="keeb">Keyboards</h2></div>
-  <div class="Content">While exploring options for a replacement keyboard and not finding anything I liked, I set out to design my own keyboard. To date, I have designed two keyboards: the Berm and the Split. The Berm is a 65% low profile ortholinear keyboard with separated halves. The split takes everything I liked about the Berm to the extreme. Lowering the keys by 10mm (from 25mm), added a proper enclosure, and fully split the keyboard in half. With the goal of making a base PCB that is identical for both halves of the keyboard. With it being a left or right half based on which components are populated.</div>
+  <div class="Content">While exploring options for a replacement keyboard and not finding anything I liked, I chose to design my own keyboard. To create a keyboard that would work best for me. To date, I have designed two keyboards: the Berm and the Split. The Berm is a 65% low profile ortholinear keyboard with separated halves. The Split takes everything I liked about the Berm to the extreme. The Split Lowered the keys by 10mm (from 25mm), added a proper enclosure, and fully split the keyboard in half. With the goal of making a base PCB that is identical for both halves of the keyboard. With it being a left or right half based on which components are populated.</div>
   <div class="Link"><form action="https://github.com/colinhalebrown/OrtholinearKeyboards" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
   </form></div>
