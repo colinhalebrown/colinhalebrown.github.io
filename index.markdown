@@ -31,11 +31,18 @@ title: Portfolio
 
 <hr><div class="container">
   <div class="Title"><h2 id="meadow">Meadowlark Mini Flight Computer</h2></div>
-  <div class="Content">After finishing the <a href="#esra">Spaceport America Cup</a> rocketry competition, I was inspired to obtain my Level 2 high power rocket certification. To accomplish that goal I needed a flight computer. After some research I decided to build one myself. The flight computer I created aims to deliver low-cost dual deploy functionality. The controller is equiped with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyroscope, and accelerometer, which fits in a 29mm chassis for H class motors.</div>
-  <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
+  <div class="Content">After finishing the <a href="#esra">Spaceport America Cup</a> rocketry competition, I was inspired to obtain my Level 2 high power rocket certification. To accomplish that goal I needed a flight computer. After some research I decided to build one myself. The flight computer I created aims to deliver low-cost dual deploy functionality. The controller is equiped with dual pyro channels, buzzer, MicroSD for logging, altimeter, gyroscope, and accelerometer, which fits in a 29mm chassis for H class motors.
+  <br><br>
+  After the initial board went through testing I moved to a new design. This board was built to meet the same design requirements but actually fit in the desired form factor. The microcontroller was no longer on the board and a XIAO module was used. This made testing and manufacturing boards easier. I also moved to Wago connectors on the board to slim the boards height down. The screw terminals of the original board were too tall for 24mm airframes while also mounting the board to an avionics bay. The version of the board in this photo is equip with three pyro channels and the microSD was removed because the internal flash storage is now used. Future iterations will return to dual pyro channels with continuity monitoring for each channel.
+  <br>
+  </div>
+  <div class="Link"><form action="https://github.com/TrilliOhm-Design/Meadowlark-Mini/tree/main" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
   </form></div>
-  <div class="Photo"><img src="/assets/images/meadowlark-mini_cover.jpg" alt="Meadowlark Mini PCB"></div>
+  <div class="Photo">
+  <img src="/assets/images/meadowlark-mini_cover.jpg" alt="Meadowlark Mini PCB">
+  <img src="/assets/images/meadowlark-mini-v2_cover.jpg" alt="Meadowlark Mini v2 PCB">
+  </div>
 </div>
 
 <hr><h2 id="esra">Experimental Sounding Rocketry Association (ESRA) Team</h2>
@@ -115,7 +122,7 @@ In September 2023, the President of Oregon State University's (OSU) American Ins
   <div class="Content">The goal of the project was to deliver a Wi-Fi capable air sensing module able to monitor gas concentrations and air quality for uses in indoor farming and air monitoring. I designed it have competitive functionality with commercial options while adding modern, user focused features. This involved adding USB-C for power and debugging, MicroSD for data logging and configuration, and user swapable battery.
   <br><br>
   I focused on the user experience and making a polished product, while also trying to minimize the number of parts onboard. To keep the system safe, the enclosure lid snaps in place covering the sensors and MicroSD slot from damage during operation. The base is equipped with mounting holes and slots for various mounting options.</div>
-  <div class="Link"><form action="https://github.com/colinhalebrown/Meadowlark-Mini/tree/main" method="get" target="_blank">
+  <div class="Link"><form action="https://github.com/TrilliOhm-Design/Burl-Mini/tree/main" method="get" target="_blank">
   <button class="button-60" type="submit">View Documentation</button>
   </form></div>
   <div class="Photo">
